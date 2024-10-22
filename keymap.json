@@ -15,13 +15,13 @@
   {
     "context": "Editor",
     "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
-      "alt-w": "editor::SelectLargerSyntaxNode",
+      "cmd-w": "editor::SelectLargerSyntaxNode",
       "cmd-shift-g": "editor::SelectAllMatches",
       "ctrl-x ctrl-s": "workspace::Save",
       "ctrl-x k": "pane::CloseActiveItem",
       "ctrl-x f": "file_finder::Toggle",
-      "cmd-b": "editor::GoToDeclaration"
+      "cmd-b": "editor::GoToDeclaration",
+      "cmd-d": "editor::DuplicateLineDown"
     }
   }
 ]
