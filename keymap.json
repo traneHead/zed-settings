@@ -16,6 +16,8 @@
     "context": "Editor",
     "bindings": {
       "cmd-w": "editor::SelectLargerSyntaxNode",
+      "alt-w": "editor::Copy",
+      "ctrl-y": "editor::Paste",
       "cmd-shift-g": "editor::SelectAllMatches",
       "ctrl-x ctrl-s": "workspace::Save",
       "ctrl-x k": "pane::CloseActiveItem",
